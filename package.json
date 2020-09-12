@@ -1,18 +1,15 @@
 {
   "name": "asylum-law-helper",
   "version": "1.0.0",
-  "description": "",
+  "description": "an Open Decision tool",
   "main": "index.html",
- 
   "repository": {
     "type": "git",
     "url": "git+https://github.com/open-decision/asylum-law-helper/"
   },
   "keywords": [],
-  "author": "Aaron Rothmann",
+  "author": "Aaron Rothmann, Paula Neuenkirchen, Lisa Kopp",
   "license": "MIT",
-
   "homepage": "https://github.com/open-decision/asylum-law-helper/",
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }

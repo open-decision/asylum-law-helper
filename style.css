@@ -1,0 +1,9 @@
+.features-navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+  flex-direction: row;
+  background: blue;
+  padding-top: 120px;
+}
