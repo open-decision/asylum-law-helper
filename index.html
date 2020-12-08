@@ -1,47 +1,44 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css" />
+    <title>Asyl-Helper</title>
   </head>
+
   <body>
     <div class="navbar">
-      <div style ="background-color:#888; height: 80px; width: 100%;"></div><!-- Placeholder -->
-
-      <!-- TODO: create navbar. Tutorial: https://www.w3schools.com/css/css_navbar.asp -->
-
-      <!-- Lisas Attempt
-            <ul class="features-navbar"
-            style="
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            align-content: center;
-            flex-direction: row;
-            background: blue;
-            padding-top: 120px;
-            ">
-              <li class="logo"><img src="logo.png" /></li>
-              <li>About us</li>
-              <li>Get help</li>
-              <li>Contact</li>
-            </ul>
-      -->
-    </div>
+        Asyl-Helper
+        <button onclick="topFunction()">zurück nach oben</button>
+        <button>Sprache wechseln</button>
+    </div> 
 
     <div class="content" style="">
       <div class="container">
-        <h1>Asylrecht-Helper</h1>
-        <p>Willkommen auf der Asylrecht-Hilfe-Webseite! Wir führen dich durch dein Asylverfahren.</p>
+        <h1>Willkommen!</h1>
+        <!--TODO: Welcome Message + Disclaimer-->
+        <p>... auf der Asylrecht-Hilfe-Webseite! Wir führen dich durch dein Asylverfahren.</p>
+        
+       <!--TODO: List of Applications--> 
         <p>Wähle dein Verfahren aus:</p>
         <ul>
           <li><a href="#">Flüchtlingsanerkennung</a></li>
         </ul>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        Page-End
       </div>
     </div>
 
-    <div class="footer">
-      <div style ="background-color:#888; height: 50px; width: 100%;"></div><!-- Placeholder -->
+    <script>
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
 
+    <div class="footer">
+      <a href="https://open-legal-tech.org/?page_id=195/" target="_blank">Impressum und Datenschutz</a>
+      <a href="https://open-legal-tech.org" target="_blank">Ein Projekt von Open Legal Tech</a>
     </div>
 
   </body>
